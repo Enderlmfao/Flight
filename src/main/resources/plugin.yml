@@ -1,0 +1,15 @@
+name: Flight
+version: '1.0'
+main: com.ender.flight.Flight
+api-version: '1.21'
+author: "EnderRogue81"
+description: A simple flight plugin.
+commands:
+  fly:
+    description: Toggles flight mode.
+    usage: /fly
+    permission: flight.use
+permissions:
+  flight.use:
+    description: Allows the user to use the /fly command.
+    default: op
